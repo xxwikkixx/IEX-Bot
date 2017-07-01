@@ -26,10 +26,22 @@ function consoleTicker(){
 	});
 }
 
-consoleTicker();
+// consoleTicker();
 
-function bot(){
+function balance(){
 	var balance = 1000;
-	var newBalance = " ";
+	var newBalance = 0;
+	return newBalance;
+}
+function buy(stockAmountBuy, priceB){
+	return stockAmountBuy * priceB;
+}
+
+function sell(stockAmountSell, priceS){
+	return stockAmountSell * priceS;
+}
+
+function algo(){
 
 }
+
